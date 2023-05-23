@@ -1,0 +1,77 @@
+/*task 1*/
+li {
+  padding-left: 10px;
+}
+/*task 2*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*task 3*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid red;
+}
+/*table 4*/
+table {
+  width: 90%;
+  margin: auto;
+}
+td,
+th {
+  padding: 0.5rem;
+  border: 1px solid #000;
+}
+td {
+  text-align: center;
+}
+/*additional tasks*/
+/*task 1*/
+div {
+  background-color: blueviolet;
+  padding: 20px;
+  border: 8px double white;
+  color: white;
+  width: 400px;
+  text-align: left;
+}
+/*task 2*/
+table {
+  background-color: aquamarine;
+  border-collapse: collapse;
+  width: 600px;
+}
+th,
+td {
+  text-align: center;
+  border: 3px solid white;
+  padding: 5px;
+}
+td {
+  padding: 5px;
+  border: 3px solid white;
+  text-align: left;
+}
+/*task 3*/
+ul {
+  padding: 20px;
+  list-style: none;
+  width: 400px;
+}
+li {
+  margin: 2px;
+  border: 1px solid white;
+  background-color: coral;
+  color: white;
+  padding: 10px;
+}
+li:first-child {
+  border-radius: 6px 6px 0 0;
+}
+li:last-child {
+  border-radius: 0 0 6px 6px;
+}
